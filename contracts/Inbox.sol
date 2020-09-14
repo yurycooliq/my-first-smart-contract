@@ -5,7 +5,7 @@ Holds a public accessable string.
 */
 contract Inbox {
     // Anybody can see the message.
-    string public message = "default message";
+    string public message = "Default message";
 
     // Inbox constructor.
     // If initial message is empty,
