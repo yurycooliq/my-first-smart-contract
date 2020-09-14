@@ -4,8 +4,8 @@ Inbox contract.
 Holds a public accessable string.
 */
 contract Inbox {
-    // Nobody can see the message.
-    string public message = "default message";
+    // Anybody can see the message.
+    string public message = "Default message";
 
     // Inbox constructor.
     // If initial message is empty,
