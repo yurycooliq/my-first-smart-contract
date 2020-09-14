@@ -5,7 +5,7 @@ Holds a public accessable string.
 */
 contract Inbox {
     // Anybody can see the message.
-    string public message = "Default message";
+    string public message = "default message";
 
     // Inbox constructor.
     // If initial message is empty,
@@ -17,7 +17,7 @@ contract Inbox {
     }
 
     // Get messsage.
-    function getMessage() public view returns (string) {
-        return message;
+    function setMessage(string newMessage) public {
+        message = newMessage;
     }
 }
