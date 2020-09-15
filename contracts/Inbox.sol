@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 /*
 Inbox contract.
-Holds a public accessable string.
+Holds a public accessible string.
 */
 contract Inbox {
     // Anybody can see the message.
