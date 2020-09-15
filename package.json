@@ -1,13 +1,13 @@
 {
   "name": "inbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first smart contract.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "yurycooliq@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "ganache-cli": "^6.10.2",
     "mocha": "^8.1.3",
